@@ -12,7 +12,7 @@ const HomeScreen = () => {
   >
     <Header/>
     <Text style={{fontSize: 30,fontWeight: 'bold', color: 'grey'}}>Match Your Style</Text>
-    <View style={{height: 48, borderRadius: 12, alignItems: 'center', flexDirection: 'row', backgroundColor: '#FFFFFF', overflow: 'hidden' }}>
+    <View style={{height: 48, borderRadius: 12, alignItems: 'center', flexDirection: 'row', backgroundColor: '#FFFFFF', overflow: 'hidden', marginBottom: 5}}>
         <TextInput placeholder="Search" style={{ backgroundColor: 'white', borderRadius: 12, height: 48, fontSize: 20,flex: 1, paddingHorizontal: 10, }} />
     </View>
     <ProductList/>
